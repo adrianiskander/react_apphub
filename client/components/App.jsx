@@ -2,10 +2,12 @@ import React from 'react';
 
 import Navbar from './Navbar.jsx';
 import TodoApp from './todo/TodoApp.jsx';
+import Markdowned from './markdowned/Markdowned.jsx';
 import ShoutboxApp from './shoutbox/ShoutboxApp.jsx';
 
 
 const APPS = {
+  'markdowned': <Markdowned />,
   'shoutbox': <ShoutboxApp />,
   'todo': <TodoApp />
 };

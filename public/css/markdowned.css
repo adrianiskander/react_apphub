@@ -1,0 +1,25 @@
+.Markdowned {
+  display: flex;
+  max-height: calc(100vh - 50px);
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.MarkdownedEditor {
+  display: flex;
+  height: calc(50vh - 25px);
+}
+
+.MarkdownedPreview {
+  background-color: white;
+  height: calc(50vh - 25px);
+  overflow-y: scroll;
+  padding: 12px;
+}
+
+@media (min-width: 576px) {
+  .MarkdownedEditor,
+  .MarkdownedPreview {
+    height: calc(100vh - 50px);
+  }
+}
