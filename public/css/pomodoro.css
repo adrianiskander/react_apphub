@@ -1,0 +1,76 @@
+.Pomodoro {
+  background-color: red;
+  border-bottom: 13px solid darkred;
+  border-radius: 50px;
+  font-size: 1em;
+  padding: 25px;
+  width: 100%;
+}
+
+.Pomodoro-btn {
+  background-color: #fafafa;
+  border: none;
+  border-bottom: 5px solid #ddd;
+  border-radius: 5px;
+  font-size: inherit;
+  font-weight: bold;
+  line-height: 1;
+  color: #333;
+  height: 50px;
+  width: 80px;
+}
+
+.Pomodoro-btn:active {
+  background-color: #ddd;
+  border: none;
+  height: 45px;
+  margin-top: 5px;
+}
+
+.Pomodoro-btn:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.Pomodoro-btn-orange {
+  background-color: orange;
+  border-color: darkorange;
+}
+
+.Pomodoro-btn-orange:active {
+  background-color: darkorange;
+}
+
+.Pomodoro-btn-orange:hover {
+  background-color: #FFB20D;
+}
+
+.Pomodoro-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #333;
+  border-radius: 5px;
+  font-size: 25px;
+  color: orange;
+  height: 50px;
+}
+
+.Pomodoro-label {
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .Pomodoro {
+    width: 66%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Pomodoro {
+    width: 50%;
+  }
+}
