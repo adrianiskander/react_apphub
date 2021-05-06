@@ -1,4 +1,5 @@
 @import './css/markdowned.css';
+@import './css/pomodoro.css';
 
 body {
   background: linear-gradient(#0575E6, #021B79);
@@ -12,6 +13,13 @@ body {
 
 a:hover {
   cursor: pointer;
+}
+
+.bg-lightgreen {background-color: lightgreen;}
+
+.cover {
+  min-height: calc(100vh - 50px);
+  width: 100%;
 }
 
 .Navbar {
